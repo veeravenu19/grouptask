@@ -1,0 +1,178 @@
+body{ 
+    margin: 0;
+}
+.block3_parent{
+    height: 100svh;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+.block3_child1{
+    height: 100svh;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.block3_child2{
+    height: 100svh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.dog{
+    height: 400px;
+    width: 300px;
+    background-image: url(../imgs/7.png);
+    background-size: 100% 100%;
+    background-color: rgb(255, 208, 216);
+    /* margin: 25px; */
+}
+.block3_child2_parent1{
+    height:400px;
+    width:70%;
+    /* border: 1px solid black;   */
+    display: flex;
+    flex-wrap: wrap;    
+    align-items: start;
+    justify-content: center;
+}
+.b3_c2_p1_c1{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black;     */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b3_c2_p1_c2{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b3_c2_p1_c3{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b3_c2_p1_c4{
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b3_c2_p1_c1:hover~.b3_c2_p1_c4{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c1:hover{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c4:hover~.b3_c2_p1_c1{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c4:hover{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c2:hover~.b3_c2_p1_c3{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c2:hover{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c3:hover .b3_c2_p1_c2{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c3:hover{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c3:hover~.b3_c2_p1_c2{
+    background-color: blue;
+    color: white;
+}
+.b3_c2_p1_c3:hover{
+    background-color: blue;
+    color: white;
+}
+
+.h1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: start; */
+    height: 150px;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.h1_1{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.h1_2{
+    height: 100px;
+}
+.b3_c2_p1_c1:hover~.b3_c2_p1_c4 a{
+    color: white;
+}
+.b3_c2_p1_c1:hover a{
+    color: white;
+}
+.b3_c2_p1_c4:hover~.b3_c2_p1_c1 a{
+    color: white;
+}
+.b3_c2_p1_c4:hover a{
+    color: white;
+}
+.b3_c2_p1_c2:hover~.b3_c2_p1_c3 a{
+    color: white;
+}
+.b3_c2_p1_c2:hover a{
+    color: white;
+}
+.b3_c2_p1_c3:hover .b3_c2_p1_c2 a{
+    color: white;
+}
+.b3_c2_p1_c3:hover a{
+    color: white;
+}
+.b3_c2_p1_c3:hover~.b3_c2_p1_c2 a{
+    color: white;
+}
+.b3_c2_p1_c3:hover a{
+    color: white;
+}
+
+@media screen and (max-width:1142px){
+    .b3_c2_p1_c3{    
+        display: none !important;
+   }
+   .b3_c2_p1_c4{
+        display: none !important;
+    } 
+}
